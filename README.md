@@ -31,7 +31,7 @@ A **Business Idea Generator** — an AI-powered SaaS application that:
 
 ## 🧰 Prerequisites
 
-- Node.js and **Vercel CLI** installed (from Day 1)
+- Node.js and **Vercel CLI** installed
 - An **OpenAI API key**
 - Python 3.10+ recommended
 
