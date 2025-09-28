@@ -33,8 +33,8 @@ Deploy a full-stack Healthcare Consultation Assistant from local dev to AWS App 
 ```mermaid
 flowchart LR
   subgraph Dev [Developer Machine]
-    A[Next.js (Pages)] -->|static export| B[Static out/]
-    C[FastAPI] --> D[uvicorn:8000]
+    A["Next.js (Pages)"] -->|static export| B["Static out/"]
+    C[FastAPI] --> D["uvicorn:8000"]
   end
 
   subgraph Docker [Docker Image]
@@ -43,7 +43,7 @@ flowchart LR
 
   subgraph AWS [AWS]
     ECR[(Amazon ECR)]
-    AR[App Runner<br/>HTTPS, LB, Auto-scale]
+    AR["App Runner<br/>HTTPS, LB, Auto-scale"]
     CW[(CloudWatch Logs)]
   end
 
